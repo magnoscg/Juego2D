@@ -1,11 +1,11 @@
 
 const PLAYERSPEED = 7;
-const GRAVITY = 25;
+const GRAVITY = 26;
 const JUMPSPEED = 15;
 
 function Player (initialPosition){
     this.position = initialPosition.sum(new Vector(0 , -1));// recalculo la posicion con -1 para ajustar la escala
-    this.size = new Vector (0.8 , 2);
+    this.size = new Vector (0.8 , 1.5);
     this.speed = new Vector(0,0);
 }
 
